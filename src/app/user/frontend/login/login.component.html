@@ -1,0 +1,28 @@
+
+<div  class="text-blue yellow-container signup-forms" >
+    <form name="form-signip"  #loginForm="ngForm" (ngSubmit)="fnDoLogin(loginForm)" novalidate>
+        <div style="text-align: center;">
+            <h1>Login</h1>
+            <div class="yellow-container-forms">                
+                <input maxlength="25" type="text" placeholder="Email" name="email" [(ngModel)]="user.email" required>
+                <br>
+                <input maxlength="50" type="password" placeholder="Password" name="password" [(ngModel)]="user.password" required>
+                <br>
+                <div style="text-align: left;">
+
+                <a style="display: inline" href="">Forgot Password</a><br>
+                <a style="display: inline" [routerLink]="['/register']">Register</a>
+                <br>
+                <br>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+                <div>
+                    <button type="submit">SIGN IN</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

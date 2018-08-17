@@ -1,0 +1,45 @@
+<div  class="text-blue yellow-container signup-forms" >
+<form name="form-signup"  #userForm="ngForm" (ngSubmit)="fnUserSave(userForm)" novalidate>
+    <div style="text-align: center;">
+        <strong>
+            <h1>create an account</h1>
+        </strong>
+       <div class="yellow-container-forms">
+        <input maxlength="20" type="text" placeholder="First Name" name="fname" [(ngModel)]="user.fname" required>
+        <br>
+        <input maxlength="20" type="text" placeholder="Last Name" name="lname" [(ngModel)]="user.lname" required>
+        <br>
+        <input maxlength="25" type="text" placeholder="Email" name="email" [(ngModel)]="user.email" required>
+        <br>
+        <input maxlength="41" type="text" placeholder="Eth wallet address (optional)" name="wallet_address" [(ngModel)]="user.wallet_address" >
+        <br>
+        <input maxlength="50" type="password" placeholder="Password" name="password" [(ngModel)]="user.password" required>
+        <br>
+        <input maxlength="50" type="password" placeholder="Repeat Password" name="cpassowrd" [(ngModel)]="user.password_confirmation" required>
+        <br>
+        <div style="text-align: left;">
+			<p>By creating an account you agree to our <br>
+			    <strong>
+			        <label>
+			            <input type="checkbox" name="remember" style="margin-bottom:15px" required>
+			        </label>
+			            <a class="btn-hov" href="/terms_of_use.pdf"> Terms of use</a><br>
+			        <label>
+			            <input type="checkbox" name="terms_of_use" style="margin-bottom:15px" required>
+			        </label>
+			        <a class="btn-hov" href="/privacy_policy.pdf">Privacy Policy</a>
+			    </strong>
+			</p>
+		</div>
+		<div>
+		<button  type="submit">SIGN UP</button>
+		</div>
+		<br>
+		<div>
+		<a [routerLink]="['/login']">Already have an account</a>
+		</div>
+</div>
+</div>
+</form>
+<!-- <button (click)="fnUserSave()" type="submit">test</button> -->
+</div>

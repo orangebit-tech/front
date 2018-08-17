@@ -1,0 +1,154 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	/*text-align: center;*/
+    margin: 0 0 ;
+    /* bottom = footer height */
+
+}
+
+.title {
+
+}
+form h1 {
+	font-weight: bold;
+	font-size: 34px;
+}
+
+.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+
+}
+
+
+
+.yellow-container a {
+/*	font-weight: bold;*/
+	margin-top: 100px;
+}
+
+.btn-bottom {
+	padding-bottom:;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.yellow-container a:hover {
+	text-decoration: none;
+	transition: .3s;
+	filter: drop-shadow();
+	}
+.yellow-container-forms {
+	border: 0;
+	padding-bottom: 20px;
+	max-width: 80%;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 10px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+
+}
+.yellow-container-forms button {
+
+    margin: 0 auto;
+	margin-top: 30px;
+	
+}
+.yellow-container-forms a{
+text-align: left;
+}
+.signup-forms input {
+		color: #5184B6;
+		text-transform: uppercase;
+
+}
+.text-blue {
+	color: #5184B6;
+	text-transform: uppercase;
+
+}
+
+
+footer {
+	text-align: left;
+    position: absolute;
+    left: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width:2001px) {
+	.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+	}
+}
+
+
+@media screen and (max-width:2000px) {
+	.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+	.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.yellow-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+    margin: 0 auto;
+	background-color: #feed01;
+ 	margin-top: 30px;
+	}
+	.signup-forms input {
+		max-height: 35px;
+		color: #5184B6;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.container h1 {
+	font-weight: ;
+	}
+}
